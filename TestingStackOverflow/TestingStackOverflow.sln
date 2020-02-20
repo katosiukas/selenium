@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excersize.UI.Tests", "Excersize.UI.Tests\Excersize.UI.Tests.csproj", "{7C448977-F7B0-47F2-B29A-252B82EB2D71}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79566003-C434-4923-94EB-0F83F03E2A94} = {79566003-C434-4923-94EB-0F83F03E2A94}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTestExcersize", "SeleniumTestExcersize\SeleniumTestExcersize.csproj", "{79566003-C434-4923-94EB-0F83F03E2A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C448977-F7B0-47F2-B29A-252B82EB2D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C448977-F7B0-47F2-B29A-252B82EB2D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C448977-F7B0-47F2-B29A-252B82EB2D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C448977-F7B0-47F2-B29A-252B82EB2D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79566003-C434-4923-94EB-0F83F03E2A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79566003-C434-4923-94EB-0F83F03E2A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79566003-C434-4923-94EB-0F83F03E2A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79566003-C434-4923-94EB-0F83F03E2A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB5CBD3F-2BA3-4572-B951-9A552280801A}
+	EndGlobalSection
+EndGlobal
